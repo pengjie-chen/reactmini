@@ -10,6 +10,8 @@ function mount(vdom, container) {
   container.appendChild(newdom);
 }
 
+
+
 function createDom(vdom) {
   let { props, type,content } = vdom;
 
